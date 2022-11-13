@@ -3,7 +3,6 @@ import java.awt.event.*;
 import javax.swing.*;
 import java.lang.Math;
 
-//(WRONG last column..must be 9,19,29 which means mod9==0 is wrong..check all the cases again)
 
 //JFrame class to display everything
 public class Frame extends JFrame implements ActionListener 
@@ -13,15 +12,15 @@ public class Frame extends JFrame implements ActionListener
 	//Variables Declaration
 	private JPanel centrePanel = new JPanel(); //A JPanel
 	private Button[] myButton;
-	private Image Bomb = new ImageIcon("Bomb.png").getImage();
-	private Image One = new ImageIcon("BlackNumber1.png").getImage();
-	private Image Two = new ImageIcon("BlackNumber2.png").getImage();
-	private Image Three = new ImageIcon("BlackNumber3.png").getImage();
-	private Image Four = new ImageIcon("BlackNumber4.png").getImage();
-	private Image Five = new ImageIcon("BlackNumber5.png").getImage();
-	private Image Six = new ImageIcon("BlackNumber6.png").getImage();
-	private Image Seven = new ImageIcon("BlackNumber7.png").getImage();
-	private Image Eight = new ImageIcon("BlackNumber8.png").getImage();
+	private Image Bomb = new ImageIcon("D:\\Github local repositories\\Minesweeper\\Minesweeper\\photos\\Bomb.png").getImage();
+	private Image One = new ImageIcon("D:\\Github local repositories\\Minesweeper\\Minesweeper\\photos\\BlackNumber1.png").getImage();
+	private Image Two = new ImageIcon("D:\\Github local repositories\\Minesweeper\\Minesweeper\\photos\\BlackNumber2.png").getImage();
+	private Image Three = new ImageIcon("D:\\Github local repositories\\Minesweeper\\Minesweeper\\photos\\BlackNumber3.png").getImage();
+	private Image Four = new ImageIcon("D:\\Github local repositories\\Minesweeper\\Minesweeper\\photos\\BlackNumber4.png").getImage();
+	private Image Five = new ImageIcon("D:\\Github local repositories\\Minesweeper\\Minesweeper\\photos\\BlackNumber5.png").getImage();
+	private Image Six = new ImageIcon("D:\\Github local repositories\\Minesweeper\\Minesweeper\\photos\\BlackNumber6.png").getImage();
+	private Image Seven = new ImageIcon("D:\\Github local repositories\\Minesweeper\\Minesweeper\\photos\\BlackNumber7.png").getImage();
+	private Image Eight = new ImageIcon("D:\\Github local repositories\\Minesweeper\\Minesweeper\\photos\\BlackNumber8.png").getImage();
 	private int maxBombs, minBombs, numberOfBombs, numberOfTiles, numberOfTilesThatDoNotHaveBomb, grayedOutTiles;
 	private int rowSize, columnSize;
 	
